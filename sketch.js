@@ -1,4 +1,4 @@
-var bg,bg2,form,system,code,security;
+var bg,bg2,form,system,code,security,music;
 var score=0;
 var bg ,backg_img;
 
@@ -8,21 +8,22 @@ function preload() {
   bg= loadImage("heart-star.jpg")
   //load image for the treasure background
   backg_img = loadImage("background.jpeg");
-  //music = loadSound('music.mp3');
+  music = loadSound('lofi-study.mp3');
 }
 
 function setup() {
   createCanvas(windowWidth,windowHeight);
   security = new Security();
   system = new System();
-  var audio = new Audio('lofi-study.mp3');
-  audio.play();
+  //var audio = new Audio('lofi-study.mp3');
+  //audio.play();
   
   
 }
 
 function draw() {
   //console.log(mouseX,mouseY);
+ music.play();
   background(bg);
   clues();
   security.display();
