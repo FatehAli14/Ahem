@@ -15,7 +15,7 @@ function clues() {
     stroke("black") 
     textSize(20);
     fill("white");
-    text("Hint: What I really like in you!!(you are smart enough;) ) ", 700,170);
+    text("Hint: What I really like in 'you'!!(you are smart enough;) ) ", 700,170);
 
     strokeWeight(3);
     stroke("black");
