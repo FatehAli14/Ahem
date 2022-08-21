@@ -23,7 +23,7 @@ function setup() {
 
 function draw() {
   //console.log(mouseX,mouseY);
- music.play();
+  //music.play();
   background(bg);
   clues();
   security.display();
